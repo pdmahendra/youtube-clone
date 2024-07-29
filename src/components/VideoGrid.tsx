@@ -197,11 +197,11 @@ export const videos = [
 const VideoGrid = () => {
   const navigate = useNavigate();
 
-  const handleVideoClick = (videoId: any) => {
+  const handleVideoClick = (videoId: string) => {
     navigate(`/watch?v=${videoId}`);
   };
   return (
-    <div className="grid grid-cols-3 gap-5 bg-black p-4">
+    <div className="grid grid-cols-3 gap-5 bg-[#0f0f0f] p-4">
       {videos.map((video) => (
         <div
           key={video.id}

@@ -1,4 +1,4 @@
-import SideBar from "../components/SideBar";
+import SideBar from "../components/sidebar/SideBar"
 import VideoGrid from "../components/VideoGrid";
 
 
