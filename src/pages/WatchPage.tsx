@@ -34,7 +34,6 @@ const WatchPage = () => {
           title={video.title}
           author={video.author}
           views={video.views}
-          timestamp={video.timestamp}
           avatar={video.avatar}
         />
       </div>

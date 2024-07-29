@@ -5,7 +5,6 @@ interface VideoProps {
   title: string;
   author: string;
   views: string;
-  timestamp: string;
   avatar: string;
 }
 
@@ -14,7 +13,6 @@ const Video = ({
   title,
   author,
   views,
-  timestamp,
   avatar,
 }: VideoProps) => {
   return (
